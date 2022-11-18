@@ -1,0 +1,15 @@
+title: Apa7
+author: First Last
+version: 1.0.0
+quarto-required: ">=1.2.0"
+contributes:
+  formats:
+    common:
+      toc: true
+      filters:
+        - apa7.lua
+    pdf:
+      include-in-header: header.tex
+    html:
+      css: styles.css
+
