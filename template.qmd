@@ -2,7 +2,7 @@
 title: "Demo APA7 manuscript"
 format:
   apa7-pdf:
-    keep-tex: true  
+    keep-tex: false  
 author:
   - name: John Doe
     affiliations:
