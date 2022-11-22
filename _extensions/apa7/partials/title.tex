@@ -9,6 +9,7 @@ $-- %%%%%%%%%%%%%%%%
 $if(title)$
 \title{$title$$if(thanks)$\thanks{$thanks$}$endif$}
 $endif$
+
 $if(subtitle)$
 \usepackage{etoolbox}
 \makeatletter
@@ -18,5 +19,11 @@ $if(subtitle)$
 \makeatother
 \subtitle{$subtitle$}
 $endif$
-\author{${ by-author:_authors.tex()[\and ] }}
+
+$-- \author{${ by-author:partials/_authors.tex()[\and ] }}
+\author{$author$}
 \date{$date$}
+
+$if(abstract)$
+\abstract{$abstract$}
+$endif$
