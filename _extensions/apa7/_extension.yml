@@ -1,15 +1,13 @@
-title: Apa7
-author: First Last
-version: 1.0.0
-quarto-required: ">=1.2.0"
+title: American Psychological Association 7th edition manuscript template
+author: Matti Vuorre & Frederik Aust
+version: 0.0.1
 contributes:
   formats:
-    common:
-      toc: true
-      filters:
-        - apa7.lua
     pdf:
-      include-in-header: header.tex
-    html:
-      css: styles.css
-
+      documentclass: apa7
+      classoption: [man]
+      cite-method: biblatex
+      biblio-style: apa
+      template-partials:
+        - partials/title.tex
+        - partials/before-body.tex
