@@ -8,3 +8,6 @@ contributes:
       classoption: [man]
       cite-method: biblatex
       biblio-style: apa
+      template-partials:
+        - partials/title.tex
+        - partials/before-body.tex
