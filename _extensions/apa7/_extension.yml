@@ -3,25 +3,8 @@ author: Matti Vuorre & Frederik Aust
 version: 0.0.1
 contributes:
   formats:
-    common:
-      # define below YAML configuration common to all formats
-      filters:
-        # You can include here Lua filters from your extension format 
-        - color-text.lua
-      knitr:
-        opts_chunk:
-          echo: false
     pdf:
-      # define default configuration for the pdf version of your format
-      documentclass: aft
-      colorlinks: true
-      urlcolor: blue
-      fig-width: 6.5
-      fig-height: 4.5
-      # This format use a bst file with natbib
-      biblio-style: apa
+      documentclass: apa7
+      classoption: [man]
       cite-method: biblatex
-      # Content to add in header that your format is using
-      header-includes: |
-        \usepackage{orcidlink}
-        \definecolor{mypink}{RGB}{219, 48, 122}
+      biblio-style: apa

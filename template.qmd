@@ -1,24 +1,6 @@
 ---
 title: "Demo APA7 manuscript"
-format:
-  apa7-pdf:
-    keep-tex: false  
-author:
-  - name: John Doe
-    affiliations:
-      - name: Dummy org
-        department: Cool Dep
-        address: Somewhere
-        city: Magic city
-        country: best one
-        postal-code: 9999
-      - Demo Journal
-    orcid: 0000-0000-0000-0000
-    email: JD@example.org
-    url: https://example.org/
-  - name: his friend
-    affiliations:
-      - Another Affiliation
+author: "My Name"
 abstract: |
   One or two sentences providing a **basic introduction** to the field,  comprehensible to a scientist in any discipline.
   Two to three sentences of **more detailed background**, comprehensible  to scientists in related disciplines.
@@ -30,6 +12,13 @@ abstract: |
   <!-- https://tinyurl.com/ybremelq -->
 keywords: [template, demo]
 bibliography: bibliography.bib  
+include-in-header: 
+  text: |
+    \shorttitle{APA7 Manuscript}
+    \affiliation{My university}
+format:
+  apa7-pdf:
+    keep-tex: false  
 ---
 
 This is a template Quarto document to produce APA7 formatted manuscripts.
