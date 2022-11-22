@@ -1,9 +1,8 @@
 ---
-title: "Demo aft format to use as template"
+title: "Demo APA7 manuscript"
 format:
-  aft-pdf:
+  apa7-pdf:
     keep-tex: true  
-  aft-html: default
 author:
   - name: John Doe
     affiliations:
@@ -21,15 +20,29 @@ author:
     affiliations:
       - Another Affiliation
 abstract: |
-  This document is only a demo explaining how to use the template.
+  One or two sentences providing a **basic introduction** to the field,  comprehensible to a scientist in any discipline.
+  Two to three sentences of **more detailed background**, comprehensible  to scientists in related disciplines.
+  One sentence clearly stating the **general problem** being addressed by  this particular study.
+  One sentence summarizing the main result (with the words "**here we show**" or their equivalent).
+  Two or three sentences explaining what the **main result** reveals in direct comparison to what was thought to be the case previously, or how the  main result adds to previous knowledge.
+  One or two sentences to put the results into a more **general context**.
+  Two or three sentences to provide a **broader perspective**, readily comprehensible to a scientist in any discipline.
+  <!-- https://tinyurl.com/ybremelq -->
 keywords: [template, demo]
 bibliography: references.bib  
 ---
 
-## Introduction {#sec-intro}
+This is a template Quarto document to produce APA7 formatted manuscripts.
 
-This is a dummy example only for the purpose to use this repo as a template starter for creating new formats.  For this `article-format-template` we call our dummy article `aft`. [@rcoreteamLanguageEnvironmentStatistical2022]
+# Methods
 
+# Results
+
+We used R for all analyses [@rcoreteamLanguageEnvironmentStatistical2022].
+
+# Discussion
+
+\clearpage
 # References
 
 ::: {#refs}
