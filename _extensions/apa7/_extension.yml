@@ -1,6 +1,6 @@
-title: Article Format Template
-author: Christophe Dervieux
-version: 0.1.0
+title: American Psychological Association 7th edition manuscript template
+author: Matti Vuorre & Frederik Aust
+version: 0.0.1
 contributes:
   formats:
     common:
