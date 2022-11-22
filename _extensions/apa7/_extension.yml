@@ -28,7 +28,3 @@ contributes:
       header-includes: |
         \usepackage{orcidlink}
         \definecolor{mypink}{RGB}{219, 48, 122}
-      template-partials:
-        # Add here the partials your format is using
-        - "partials/title.tex"
-        - "partials/_authors.tex"
