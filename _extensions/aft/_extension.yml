@@ -18,14 +18,12 @@ contributes:
       # define default configuration for the pdf version of your format
       documentclass: aft
       colorlinks: true
-      urlcolor: red
+      urlcolor: blue
       fig-width: 6.5
       fig-height: 4.5
       # This format use a bst file with natbib
-      biblio-style: te
-      cite-method: natbib
-      # Set this below (`biblio-config: false`) if your cls already load a bst file
-      # biblio-config: false
+      biblio-style: apa
+      cite-method: biblatex
       # Content to add in header that your format is using
       header-includes: |
         \usepackage{orcidlink}
@@ -34,7 +32,3 @@ contributes:
         # Add here the partials your format is using
         - "partials/title.tex"
         - "partials/_authors.tex"
-      format-resources:
-        # Add here the resources required for the PDF rendering
-        - aft.cls
-        - te.bst
