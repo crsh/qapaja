@@ -29,7 +29,7 @@ abstract: |
   Two or three sentences to provide a **broader perspective**, readily comprehensible to a scientist in any discipline.
   <!-- https://tinyurl.com/ybremelq -->
 keywords: [template, demo]
-bibliography: references.bib  
+bibliography: bibliography.bib  
 ---
 
 This is a template Quarto document to produce APA7 formatted manuscripts.
